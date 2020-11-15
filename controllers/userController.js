@@ -23,7 +23,7 @@ exports.getUserById = (req, res) => {
 
 
 exports.postUser = (req, res) => {
-	console.log('post enviado');
+	console.log('post enviado XX');
 	let newUser = new User();
   	Object.assign(newUser, req.body);
   	newUser.save()
